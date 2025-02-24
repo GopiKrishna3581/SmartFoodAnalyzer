@@ -18,8 +18,8 @@ const FoodAnalyzerPage = () => {
       
       {/* MOBILE LAYOUT - Only visible on small screens */}
       <div className="relative z-10 flex flex-col items-center justify-between min-h-screen text-center px-4 py-20 md:hidden">
-        {/* Top content container */}
-        <div className="w-full flex flex-col items-center space-y-6 pt-10">
+        {/* Centered content container - adjusted to be more centered */}
+        <div className="w-full flex flex-col items-center space-y-6 pt-0 mt-16">
           {/* Main Title - Fixed for mobile */}
           <div className="flex flex-col items-center">
             <div className="text-3xl font-bold tracking-wider font-['Comic_Sans_MS'] text-white">
