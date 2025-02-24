@@ -19,9 +19,9 @@ const FoodAnalyzerPage = () => {
       {/* MOBILE LAYOUT - Only visible on small screens */}
       <div className="relative z-10 flex flex-col items-center justify-between min-h-screen text-center px-4 py-20 md:hidden">
         {/* Centered content container */}
-        <div className="w-full flex flex-col items-center space-y-6 pt-0 mt-16">
+        <div className="w-full flex flex-col items-center space-y-6 pt-0 mt-10">
           {/* Main Title */}
-          <div className="flex flex-col items-center">
+          <div className="mt-12 flex flex-col items-center">
             <div className="text-3xl font-bold tracking-wider font-['Comic_Sans_MS'] text-white">
               <span className="block mb-1">SMART</span>
               <div className="flex items-center justify-center my-1">
@@ -39,7 +39,7 @@ const FoodAnalyzerPage = () => {
           </div>
 
           {/* Subtitle */}
-          <p className="text-lg text-white italic font-['Satisfy']">
+          <p className="text-lg mt-6 text-white italic font-['Satisfy']">
             Your Health is Our mission, Your Safety is Our Promise
           </p>
 
@@ -50,7 +50,7 @@ const FoodAnalyzerPage = () => {
         </div>
 
         {/* Bottom button container */}
-        <div className="mt-auto mb-16">
+        <div className="mt-8 mb-auto">
           <button 
             className="bg-black bg-opacity-60 text-orange-500 font-['Satisfy'] py-3 px-8 rounded-full hover:bg-opacity-70 transition-all duration-300 text-xl shadow-lg"
             onClick={() => { navigate('/home') }}
