@@ -18,9 +18,9 @@ const FoodAnalyzerPage = () => {
       
       {/* MOBILE LAYOUT - Only visible on small screens */}
       <div className="relative z-10 flex flex-col items-center justify-between min-h-screen text-center px-4 py-20 md:hidden">
-        {/* Centered content container - adjusted to be more centered */}
+        {/* Centered content container */}
         <div className="w-full flex flex-col items-center space-y-6 pt-0 mt-16">
-          {/* Main Title - Fixed for mobile */}
+          {/* Main Title */}
           <div className="flex flex-col items-center">
             <div className="text-3xl font-bold tracking-wider font-['Comic_Sans_MS'] text-white">
               <span className="block mb-1">SMART</span>
@@ -49,7 +49,7 @@ const FoodAnalyzerPage = () => {
           </p>
         </div>
 
-        {/* Bottom button container - Push to bottom */}
+        {/* Bottom button container */}
         <div className="mt-auto mb-16">
           <button 
             className="bg-black bg-opacity-60 text-orange-500 font-['Satisfy'] py-3 px-8 rounded-full hover:bg-opacity-70 transition-all duration-300 text-xl shadow-lg"
