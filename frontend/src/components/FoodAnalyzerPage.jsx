@@ -39,7 +39,7 @@ const FoodAnalyzerPage = () => {
           </div>
 
           {/* Subtitle */}
-          <p className="text-lg mt-6 text-white italic font-['Satisfy']">
+          <p className="text-lg mt-4 text-white italic font-['Satisfy']">
             Your Health is Our mission, Your Safety is Our Promise
           </p>
 
@@ -50,7 +50,7 @@ const FoodAnalyzerPage = () => {
         </div>
 
         {/* Bottom button container */}
-        <div className="mt-8 mb-auto">
+        <div className="mt-10 mb-auto">
           <button 
             className="bg-black bg-opacity-60 text-orange-500 font-['Satisfy'] py-3 px-8 rounded-full hover:bg-opacity-70 transition-all duration-300 text-xl shadow-lg"
             onClick={() => { navigate('/home') }}
